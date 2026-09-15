@@ -1,116 +1,375 @@
-<div align="center">
+# 🌸 GitHub Profile README Prompt
 
-# Chakradhar Reddy M
+Act as an expert GitHub profile designer, developer portfolio architect, and technical branding specialist.
 
-**CS (AI/ML) Engineer • Graph-RAG Security • Backend Systems**
+Create a complete, production-ready `README.md` for my GitHub profile repository.
 
-Sixth semester at CMR Institute of Technology, Bengaluru  
-Crafting systems that think, learn, and stay safe
-
-[**→ Interactive Portfolio**](https://chakradhar91085.github.io) • [LinkedIn](https://www.linkedin.com/in/chakradharreddym9559) • [LeetCode](https://leetcode.com/u/Chakradhar7705/) • [Email](mailto:chakradharreddy9559@gmail.com)
+The README should represent me accurately based on the information below. Do NOT invent achievements, technologies, projects, usernames, statistics, or experience.
 
 ---
 
-</div>
+# 👤 PROFILE INFORMATION
 
-<table align="center">
-  <tr>
-    <td>
-      <strong>8.88</strong><br><sub>CGPA (pursuing)</sub>
-    </td>
-    <td>
-      <strong>3</strong><br><sub>Major Projects</sub>
-    </td>
-    <td>
-      <strong>3</strong><br><sub>Hackathons</sub>
-    </td>
-    <td>
-      <strong>4</strong><br><sub>Awards</sub>
-    </td>
-  </tr>
-</table>
+Name:
+Chakradhar Reddy M
 
----
+GitHub:
+https://github.com/chakradhar91085
 
-## 🛠️ Tech Stack
+LinkedIn:
+https://www.linkedin.com/in/chakradharreddym9559
 
-```
-Languages    →  Python, Java, TypeScript, JavaScript, HTML, CSS
-Frameworks   →  FastAPI, React, Node.js, Express
-AI/ML        →  PyTorch, Hugging Face, Transformers, Graph-RAG, Ollama
-Databases    →  PostgreSQL, MySQL, Neo4j, Redis
-Platform     →  Docker, Git, Vercel, BullMQ, Prisma
-```
+LeetCode:
+https://leetcode.com/u/Chakradhar7705/
 
----
+Email:
+chakradharreddy9559@gmail.com
 
-## 🚀 Featured Projects
+Education:
+Bachelor of Engineering — Computer Science (Artificial Intelligence and Machine Learning)
 
-### **ReachInBox** — Async Email Campaign Scheduler
-> Production backend for scalable email delivery with intelligence baked in
+College:
+CMR Institute of Technology, Bengaluru
 
-- **What it does**: Users upload CSVs, configure stagger patterns, and the system delivers emails with per-sender rate limits and retry logic. Every email's lifecycle is tracked: pending → processing → sent/failed.
-- **The hard parts**: Async job queuing without losing messages, idempotency on retries so nobody gets double-blasted, live campaign monitoring
-- **Tech**: TypeScript, Node.js, Express, PostgreSQL, Prisma, Redis, BullMQ, Docker
-- **Live**: [outbox-email-scheduler-ten.vercel.app](https://outbox-email-scheduler-ten.vercel.app/)
+CGPA:
+8.88
 
-### **Sentinel** — AI-Powered Toxicity Detection
-> Real-time content moderation using fine-tuned DistilBERT
+Expected Graduation:
+2027
 
-- **What it does**: Scores incoming text for toxicity in real-time, built on a DistilBERT model trained on the Jigsaw toxic comment dataset
-- **The hard part**: Balancing precision (don't flag benign speech) with recall (catch the genuinely toxic)
-- **Tech**: Python, PyTorch, Hugging Face Transformers, FastAPI, JavaScript
+Current Position:
+6th Semester CSE (AI & ML) Student
 
-### **AegisGraph** — Privacy-Aware Graph Intelligence Framework
-> Behavioral security layer for Graph-RAG pipelines
-
-- **What it does**: Guards knowledge graphs against progressive information extraction attacks by watching user behaviour over time—not just individual queries
-- **The insight**: One innocuous question looks fine. A hundred questions about the same entity, probing traversal patterns, feels like reconstruction. It catches the attack pattern.
-- **Tech**: Python, FastAPI, Neo4j, Graph-RAG, Ollama (Qwen2.5-Coder), TypeScript, Vite
+Career Focus:
+Artificial Intelligence, Machine Learning, Software Engineering, Data Science, and AI-powered applications.
 
 ---
 
-## 🏆 Wins
+# 🧑‍💻 ABOUT ME
 
-| Achievement | Year |
-|---|---|
-| **Membrain AI Hackathon** — 1st Place | 2026 |
-| **Mini Project Winner** — Semesters 1, 2, 3 | 2023–24 |
-| **NPTEL Cloud Computing** — Silver Elite | 2026 |
-| **Promotion Team Lead** — Brain Bot Club | 2025–26 |
+Write a concise and professional About Me section based on this profile.
 
----
+I am a Computer Science Engineering student specializing in Artificial Intelligence and Machine Learning.
 
-## 📚 Education
+I learn engineering primarily by building practical projects.
 
-**Bachelor of Engineering** — Computer Science (AI/ML)  
-CMR Institute of Technology, Bengaluru | CGPA: 8.88 (pursuing)
+My interests include:
 
-**12th Pre-University** — St. Francis Composite PU College | 87% (2023)  
-**10th Grade** — Cambridge Public School | 88.6% (2021)
+- Artificial Intelligence
+- Machine Learning
+- Deep Learning
+- Generative AI
+- Graph-RAG
+- Backend Engineering
+- Data Science
+- Problem Solving
+- Software Engineering
+- Open-source technologies
 
----
+The writing should communicate that I am an actively learning student and builder.
 
-## 🎓 Certifications & Growth
-
-- Google Prompting Essentials Specialization (Coursera)
-- The Complete Python Developer (Udemy)
-- NPTEL Cloud Computing (2026 — Silver Elite)
+Do NOT portray me as a senior engineer or industry expert.
 
 ---
 
-## 💬 Let's Connect
+# 🚀 FEATURED PROJECTS
 
-**Email** → [chakradharreddy9559@gmail.com](mailto:chakradharreddy9559@gmail.com)  
-**Phone** → +91 91085 40605  
-**Location** → Bengaluru, India
+Create an attractive Featured Projects section using the following REAL projects.
+
+## 1. ReachInBox — Asynchronous Email Campaign Scheduling System
+
+Description:
+
+An asynchronous email scheduling system that allows users to create campaigns, upload recipient CSVs, and configure staggered email delivery and rate limits.
+
+Key technologies:
+
+React, TypeScript, Vite, Node.js, Express, PostgreSQL, Prisma, Redis, BullMQ, Clerk, SMTP/Ethereal, Docker.
+
+Important technical features:
+
+- RESTful backend
+- Asynchronous background processing
+- Redis + BullMQ
+- Dedicated email worker
+- Delayed jobs
+- Per-sender rate limiting
+- Retry handling
+- Idempotency checks
+- Email lifecycle tracking
+- Live campaign status monitoring
+
+Deployment:
+
+https://outbox-email-scheduler-ten.vercel.app/
+
+GitHub Repository:
+[REACHINBOX_GITHUB_URL]
 
 ---
 
-<div align="center">
+## 2. Sentinel — AI-Powered Toxicity Detection & Content Moderation System
 
-**[→ View my interactive portfolio](https://chakradhar91085.github.io)**
+Description:
 
-Made with code and curiosity. Always learning.
+A real-time content moderation system using a fine-tuned DistilBERT model for toxicity detection.
 
-</div>
+Key technologies:
+
+Python, FastAPI, PyTorch, Hugging Face Transformers, JavaScript.
+
+Key features:
+
+- Fine-tuned DistilBERT
+- Jigsaw Toxic Comment Dataset
+- Toxicity classification
+- Real-time text analysis
+- Confidence-based scoring
+- FastAPI backend
+- Interactive web interface
+
+GitHub Repository:
+[SENTINEL_GITHUB_URL]
+
+---
+
+## 3. AegisGraph — Privacy-Aware Graph Intelligence Framework
+
+Description:
+
+A Graph-RAG security framework designed to address progressive information extraction and subgraph reconstruction risks through continuous behavioral monitoring.
+
+Key technologies:
+
+Python, TypeScript, Vite, FastAPI, Neo4j, Ollama, Qwen2.5-Coder, Graph-RAG.
+
+Key features:
+
+- Graph-RAG pipeline
+- Privacy-aware graph retrieval
+- Neo4j knowledge graph
+- Controlled graph retrieval layer
+- Parameterized Cypher queries
+- Intent-based retrieval
+- Ollama + Qwen2.5-Coder
+- Behavioral risk analysis
+- Semantic similarity analysis
+- Query frequency analysis
+- Entity-focused probing
+- Graph traversal pattern analysis
+
+GitHub Repository:
+[AEGISGRAPH_GITHUB_URL]
+
+---
+
+# 🛠️ TECH STACK
+
+Create a visually attractive centered Tech Stack section.
+
+Only include technologies that are actually present in my resume.
+
+## Languages
+
+- Python
+- Java
+- JavaScript
+- TypeScript
+- HTML
+- CSS
+- SQL
+
+## AI / Machine Learning
+
+- PyTorch
+- Hugging Face Transformers
+- DistilBERT
+- Machine Learning
+- Deep Learning
+- Generative AI
+- Graph-RAG
+- Ollama
+- Qwen2.5-Coder
+
+## Backend / Development
+
+- Node.js
+- Express
+- FastAPI
+- React
+- Vite
+
+## Databases
+
+- PostgreSQL
+- MySQL
+- Neo4j
+
+## Infrastructure / Tools
+
+- Redis
+- BullMQ
+- Docker
+- Git
+- GitHub
+- VS Code
+- Eclipse
+
+Use Skill Icons where appropriate.
+
+Keep the presentation clean.
+
+Do NOT create a huge wall of technology icons.
+
+---
+
+# 🧠 CURRENTLY LEARNING
+
+Create a small section called:
+
+## 🌱 Currently Learning
+
+Include:
+
+- Data Structures & Algorithms
+- Java
+- Machine Learning
+- Deep Learning
+- Generative AI
+- Graph-based AI systems
+- Backend Engineering
+- Software Engineering Fundamentals
+
+Make this section concise.
+
+---
+
+# 🏆 ACHIEVEMENTS
+
+Create a visually appealing achievements section.
+
+Include the REAL achievements:
+
+🏆 Mini Project Winner — 1st Semester (2023)
+
+🏆 Mini Project Winner — 2nd Semester (2024)
+
+🏆 Mini Project Winner — 3rd Semester (2024)
+
+🥇 Membrain AI Hackathon — 1st Place Winner (2026)
+
+Do not exaggerate these achievements.
+
+---
+
+# 🏅 HACKATHONS
+
+Create a separate Hackathons section.
+
+Include:
+
+- Repogenesis Hackathon — 2025, BMSCE Bengaluru
+- Smart India Hackathon — 2025
+- Membrain AI Hackathon — 2026 — 1st Place Winner
+
+Make the Membrain AI Hackathon achievement visually prominent.
+
+---
+
+# 🎨 LEADERSHIP & COMMUNITY
+
+Include my actual club experience.
+
+Brain Bot Club
+Promotion Team Leader — 2025–2026
+
+Responsibilities:
+
+- Leading design initiatives
+- Poster creation
+- Event branding
+- Visual content creation
+- Mentoring peers
+- Coordinating with the core team
+- Conducting technical knowledge-sharing sessions
+
+Mention the session:
+
+"Working of Gibber links"
+
+Do not overstate the leadership experience.
+
+---
+
+# 📜 CERTIFICATIONS
+
+Create a compact certifications section.
+
+Include:
+
+- Google Prompting Essentials Specialization — Coursera
+- The Complete Python Developer — Udemy
+- NPTEL Cloud Computing — 2026 — Silver Elite
+
+---
+
+# 📊 GITHUB STATISTICS
+
+Create a centered GitHub Statistics section.
+
+Include:
+
+1. GitHub Stats
+2. GitHub Streak
+3. Top Languages
+4. Contribution Activity Graph
+
+GitHub username:
+
+`chakradhar91085`
+
+Use a consistent pink/magenta aesthetic.
+
+Preferred colors:
+
+Primary:
+`#EF93C4`
+
+Secondary:
+`#F8BBD0`
+
+Accent:
+`#FF69B4`
+
+Make sure the widgets are currently compatible with GitHub.
+
+Do not use broken, deprecated, or fake statistics.
+
+---
+
+# 🐍 CONTRIBUTION SNAKE
+
+Create a Contribution Snake section.
+
+Use the GitHub Contribution Snake generated through GitHub Actions.
+
+Support both light and dark mode using `<picture>`.
+
+Use placeholders where required.
+
+Include the appropriate GitHub Actions workflow comment/instruction.
+
+---
+
+# 📈 PROFILE DESIGN
+
+Create a responsive light/dark banner.
+
+Use:
+
+```html
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="[DARK_BANNER_URL]">
+  <source media="(prefers-color-scheme: light)" srcset="[LIGHT_BANNER_URL]">
+  <img alt="GitHub Profile Banner" src="[DEFAULT_BANNER_URL]">
+</picture>
